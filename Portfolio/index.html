@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Khizra Yaqoob</title>
+  <link rel="stylesheet" href="cssFile/globalStyles.css">
+</head>
+<body>
+  <nav class="box">
+    <h2 class="text">Khizra Yaqoob</h2>
+    <button id="themeBtn" class="text">Dark Mode</button>
+    <button class="text">☰ Menu</button>
+    <div id="menuLinks" class="text" style="display:none;">
+      <a href="index.html">Home</a>
+      <a href="pages/about.html">About</a>
+      <a href="pages/projects.html">Projects</a>
+      <a href="pages/skills.html">Skills</a>
+      <a href="pages/contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="box">
+    <img src="sources/profile.png" alt="Khizra Yaqoob" class="text" style="width:120px; height:120px; border-radius:50%; margin: 0 auto; display:block; object-fit:cover;">
+    <h1 class="text" style="text-align:center; margin-top:15px;">Hi, I'm Khizra Yaqoob</h1>
+    <p class="text" style="text-align:center;">CS Student & Developer at University of Gujrat. Building projects in Java, C++, JavaScript and MySQL.</p>
+    <a href="pages/projects.html" style="text-decoration:none;">
+      <button class="text" style="display:block; margin: 15px auto; cursor:pointer; padding:10px 20px;">View Projects</button>
+    </a>
+  </div>
+
+  <div class="box">
+    <h2 class="text" style="text-align:center; margin-bottom:20px;">My Featured Skills</h2>
+    <div class="box" style="display:flex; justify-content:space-around; flex-wrap:wrap; gap:20px;">
+      <div class="text" style="text-align:center; flex:1; min-width:200px;">
+        <img src="sources/java.png" alt="Java Programming" class="text" style="width:60px; height:60px;">
+        <h3>Java Programming</h3>
+        <p>Building desktop apps with Swing & MySQL</p>
+      </div>
+      <div class="text" style="text-align:center; flex:1; min-width:200px;">
+        <img src="sources/web.png" alt="Web Development" class="text" style="width:60px; height:60px;">
+        <h3>Web Development</h3>
+        <p>Creating responsive websites with HTML & CSS</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="box">
+    <p class="text" style="text-align:center;">© <span id="year"></span> Khizra Yaqoob</p>
+  </footer>
+
+  <script src="jsFile/jsFunctions.js"></script>
+</body>
+</html>
